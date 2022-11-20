@@ -59,6 +59,7 @@ public int getStatusCode(Response response) {
 
 public String getResBodyAsPrettyString(Response response) {
 	String prettyString = response.asPrettyString();
+	System.out.println(prettyString);
 	return prettyString;
 
 }
